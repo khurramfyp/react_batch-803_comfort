@@ -205,3 +205,108 @@ footer {
     text-transform: uppercase;
     padding: 10px 20px;
 }
+
+.global_title {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 71.1px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+
+.global_title span {
+    color: #058b8c;
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71.1px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+
+.card_grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.service_card {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.service_card img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service_card .over_lay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 24%, rgba(255, 255, 255, 1) 97%);
+}
+
+.service_card .over_lay .content {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.service_card .over_lay .content h2 {
+    color: #1E1E1E;
+
+
+
+
+
+}
+
+.service_card .over_lay .content button {
+    width: 100%;
+    border-radius: 30px;
+    border: 3px solid white;
+    background: transparent;
+    padding: 14px 30px;
+    color: #fff;
+    width: 232px;
+    height: 59px;
+    top: 1706px;
+    left: 685px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    display: none;
+
+}
+
+.service_card:hover {
+    cursor: pointer;
+}
+
+.service_card:hover .over_lay {
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+}
+
+.service_card:hover .over_lay h2 {
+    color: white;
+}
+
+.service_card:hover .over_lay button {
+    display: block;
+}

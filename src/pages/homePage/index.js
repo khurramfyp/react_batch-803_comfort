@@ -1,8 +1,15 @@
 import React from 'react'
-
+import HeroSection from './features/heroSection'
+import OurServices from './features/ourServices'
+import './style.css'
 const HomePage = () => {
     return (
-        <div>HomePage</div>
+        <>
+            <HeroSection />
+            <OurServices />
+
+        </>
+
     )
 }
 
