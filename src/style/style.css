@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: #c4c4c4;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav ul li:hover {
+    color: rgba(5, 139, 140, 1);
+    cursor: pointer;
+
+}
+
+.header_btn {
+    border-radius: 48px;
+    background: rgba(5, 139, 140, 1);
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header_btn:hover {
+    color: #fff;
+}
+
+/*Footer*/
+footer {
+    max-width: 1250px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.column_three ul li {
+    list-style: none;
+    color: #8f8f8f;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 0px;
+}
+
+.news_letter {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.news_letter input {
+    width: 75%;
+    border-radius: 341px;
+    border: 2px solid #058b8c;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.news_letter button {
+    width: 23%;
+    margin-left: 1rem;
+    border-radius: 48px;
+    background: #058b8c;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #fff;
+    border: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/* banner_section*/
+.page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.banner_section {
+    background: url(/src/assets/images/home/banner/banner.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 50px 0px;
+
+}
+
+.banner_inner_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.banner_inner_section .banner_img {
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+.banner_inner_section .banner_img img {
+    border-radius: 50%;
+}
+
+.banner_inner_section .banner_content {
+    margin-top: 130px;
+}
+
+.banner_inner_section .banner_content small {
+    border-radius: 30px;
+    background: #058b8c;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.banner_inner_section .banner_content .intro {
+    margin-top: 10px;
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+
+.banner_inner_section .banner_content h2 {
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.banner_inner_section .banner_content h2 span {
+    color: #058b8c;
+}
+
+.banner_inner_section .banner_content .description {
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.banner_button .btn_1 {
+    border-radius: 48px;
+    background: #8D0F11;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.banner_button .btn_2 {
+    border-radius: 48px;
+
+    border: 2px solid #1e1e1e;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
