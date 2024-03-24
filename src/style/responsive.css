@@ -1,0 +1,33 @@
+@media screen and (max-width:620px) {
+    .banner_inner_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .client_card_grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .banner_inner_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .client_card_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .banner_inner_section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
